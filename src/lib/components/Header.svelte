@@ -1,7 +1,7 @@
 <script>
     import logo from "../../assets/logo.png";
     import {Link} from "svelte-routing";
-    import Servicios from "./Servicios.svelte";
+
 </script>
 
 <header>
@@ -23,6 +23,7 @@
     img {
         height: 100%;
     }
+
     nav {
         display: flex;
         align-items: center;

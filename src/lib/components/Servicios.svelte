@@ -1,5 +1,3 @@
-
-
 <script>
     let services = [
         {
@@ -23,14 +21,13 @@
     import imagenb from "../../assets/Imagenes/2.jpg"
 
 
-
 </script>
 
 <section>
-    <div class="fototitulo"> <img src={imagenb}/>
+    <div class="fototitulo"><img src={imagenb}/>
     </div>
     <h2>Nuestros Servicios</h2>
-  <!--<img src="../../assets/Imagenes/Serviciosimagen1.jpg"> -->
+
 
     {#each services as service}
         <div class="service">
@@ -41,7 +38,7 @@
         </div>
     {/each}
 
-    <div class="fototitulo"> <img src={imagena}/>
+    <div class="fototitulo"><img src={imagena}/>
     </div>
 
 </section>
@@ -73,7 +70,7 @@
 
     .fototitulo {
 
-         display: flex;
+        display: flex;
         justify-content: center;
 
     }
