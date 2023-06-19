@@ -1,12 +1,14 @@
 <script>
     import logo from "../../assets/logo.png";
     import {Link} from "svelte-routing";
+    import Servicios from "./Servicios.svelte";
 </script>
 
 <header>
     <img src={logo} alt="pet store icon">
     <nav>
         <Link to="/">Home</Link>
+        <Link to="/Servicios.svelte"> Servicios</Link>
     </nav>
 </header>
 
