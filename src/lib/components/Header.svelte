@@ -7,6 +7,8 @@
     <img src={logo} alt="pet store icon">
     <nav>
         <Link to="/">Home</Link>
+        <Link to="/testimonios">Testimonios</Link>
+   
     </nav>
 </header>
 

@@ -3,6 +3,7 @@
     import {Router} from 'svelte-routing'
     import Header from "./lib/components/Header.svelte";
     import Routes from "./lib/components/Routes.svelte";
+
 </script>
 
 <Router>
